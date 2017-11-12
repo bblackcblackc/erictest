@@ -23,6 +23,7 @@ docker-compose up mysql
 docker-compose down
 docker-compose up
 ```
+```
 
 ## Работа
 Все скрипты доступны по адресу etest.localhost:8080,
