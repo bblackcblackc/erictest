@@ -1,0 +1,127 @@
+[2017-11-12 11:41:16.707393] [info] Correctly started with URL = http://mirror.yandex.ru/centos/TIME, hash = yh
+[2017-11-12 11:41:17.149898] [info] dl hash = c3092007c29d20146bf3d0d0af0c3031; req hash = yh
+[2017-11-12 11:41:17.149979] [info] http://mirror.yandex.ru/centos/TIME correctly downloaded. Exit
+[2017-11-12 11:56:40.171006] [info] Correctly started with URL = http://mirror.yandex.ru/centos/dir_sizes, hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 11:56:41.357742] [info] Downloaded file hash = af37786c61b21348811cf672a0f4f5bb; required file hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 11:56:41.357816] [info] http://mirror.yandex.ru/centos/dir_sizes correctly downloaded. Exit
+[2017-11-12 12:07:06.466676] [info] Correctly started with URL = http://mirror.yandex.ru/centos/dir_sizes, hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 12:07:06.820291] [info] [6] Downloaded file hash = af37786c61b21348811cf672a0f4f5bb; required file hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 12:07:06.820450] [info] [6] Hash correct.
+[2017-11-12 12:07:06.820552] [info] [6] Saved to temporary file 
+[2017-11-12 12:07:06.820579] [info] [6]http://mirror.yandex.ru/centos/dir_sizes correctly downloaded. Exit
+[2017-11-12 12:07:54.784327] [info] Correctly started with URL = http://mirror.yandex.ru/centos/dir_sizes, hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 12:07:55.024065] [info] [7] Downloaded file hash = af37786c61b21348811cf672a0f4f5bb; required file hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 12:07:55.024147] [info] [7] Hash correct.
+[2017-11-12 12:07:55.024494] [info] [7] Saved to temporary file /tmp/vidJSzS1q
+[2017-11-12 12:07:55.024534] [info] [7]http://mirror.yandex.ru/centos/dir_sizes correctly downloaded. Exit
+[2017-11-12 12:08:52.941508] [info] Correctly started with URL = http://mirror.yandex.ru/centos/dir_sizes, hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 12:08:54.772978] [info] [8] Downloaded file hash = af37786c61b21348811cf672a0f4f5bb; required file hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 12:08:54.773053] [info] [8] Hash correct.
+[2017-11-12 12:08:54.773364] [info] [8] Saved to temporary file /tmp/vidotlAax
+[2017-11-12 12:08:54.773396] [info] [8] http://mirror.yandex.ru/centos/dir_sizes correctly downloaded. Exit
+[2017-11-12 12:19:01.926493] [info] Correctly started with URL = http://etest.localhost:8080/centaur_2.mpg, hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 12:19:01.975982] [error] [9] http://etest.localhost:8080/centaur_2.mpg cannot be downloaded with error 6, Could not resolve host: etest.localhost
+[2017-11-12 12:19:36.785347] [info] Correctly started with URL = http://localhost:8080/centaur_2.mpg, hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 12:19:36.863986] [error] [10] http://localhost:8080/centaur_2.mpg cannot be downloaded with error 7, Failed to connect to localhost port 8080: Connection refused
+[2017-11-12 12:19:52.537009] [info] Correctly started with URL = http://nginx:8080/centaur_2.mpg, hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 12:20:11.128860] [info] [11] Downloaded file hash = e1a64dc6886b49030d0859297f9e59c6; required file hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 12:20:11.128952] [info] [11] http://nginx:8080/centaur_2.mpg correctly downloaded. Exit
+[2017-11-12 12:29:52.368148] [info] Correctly started with URL = http://nginx:8080/centaur_2.mpg, hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 12:30:16.939923] [info] [12] http://nginx:8080/centaur_2.mpg correctly downloaded.
+[2017-11-12 12:30:16.977201] [info] [12] Downloaded file hash = e1a64dc6886b49030d0859297f9e59c6; required file hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 12:30:16.977287] [critical] [12] http://nginx:8080/centaur_2.mpg has wrong hash. Exit.
+[2017-11-12 12:33:51.810626] [info] Correctly started with URL = http://nginx:8080/centaur_2.mpg, hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 12:34:20.036290] [info] [13] http://nginx:8080/centaur_2.mpg correctly downloaded.
+[2017-11-12 12:34:20.069456] [info] [13] Downloaded file hash = e1a64dc6886b49030d0859297f9e59c6; required file hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 12:34:20.069555] [critical] [13] http://nginx:8080/centaur_2.mpg has wrong hash. Exit.
+[2017-11-12 12:35:05.706397] [info] Correctly started with URL = http://nginx:8080/centaur_2.mpg, hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 12:35:28.126600] [info] [14] http://nginx:8080/centaur_2.mpg correctly downloaded.
+[2017-11-12 12:35:28.160161] [info] [14] Downloaded file hash = e1a64dc6886b49030d0859297f9e59c6; required file hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 12:35:28.160239] [info] [14] Hash correct.
+[2017-11-12 12:35:28.170815] [info] [14] Saved to temporary file /tmp/vidqgh29Y
+[2017-11-12 12:38:27.248657] [info] Correctly started with URL = http://nginx:8080/centaur_2.mpg, hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 12:38:54.667047] [info] [15] http://nginx:8080/centaur_2.mpg correctly downloaded.
+[2017-11-12 12:38:54.700370] [info] [15] Downloaded file hash = e1a64dc6886b49030d0859297f9e59c6; required file hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 12:38:54.700452] [info] [15] Hash correct.
+[2017-11-12 12:38:54.710113] [info] [15] Saved to temporary file /tmp/vidkiOfT8
+[2017-11-12 12:40:54.612886] [info] Correctly started with URL = http://nginx:8080/centaur_2.mpg, hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 12:41:25.972548] [info] [16] http://nginx:8080/centaur_2.mpg correctly downloaded.
+[2017-11-12 12:41:26.005775] [info] [16] Downloaded file hash = e1a64dc6886b49030d0859297f9e59c6; required file hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 12:41:26.005852] [info] [16] Hash correct.
+[2017-11-12 12:41:26.015769] [info] [16] Saved to temporary file /tmp/vid7RHrja
+[2017-11-12 12:44:32.764365] [info] Correctly started with URL = http://nginx:8080/centaur_2.mpg, hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 12:44:58.929686] [info] [17] http://nginx:8080/centaur_2.mpg correctly downloaded.
+[2017-11-12 12:44:58.968997] [info] [17] Downloaded file hash = e1a64dc6886b49030d0859297f9e59c6; required file hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 12:44:58.969084] [info] [17] Hash correct.
+[2017-11-12 12:44:58.983752] [info] [17] Saved to temporary file /tmp/vidCotxru
+[2017-11-12 12:44:59.073133] [info] [17] http://nginx:8080/centaur_2.mpg is video with 720x480 dimensions and  framerate.
+[2017-11-12 12:46:05.340662] [info] Correctly started with URL = http://nginx:8080/centaur_2.mpg, hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 12:46:29.206418] [info] [18] http://nginx:8080/centaur_2.mpg correctly downloaded.
+[2017-11-12 12:46:29.240149] [info] [18] Downloaded file hash = e1a64dc6886b49030d0859297f9e59c6; required file hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 12:46:29.240231] [info] [18] Hash correct.
+[2017-11-12 12:46:29.249917] [info] [18] Saved to temporary file /tmp/vid6x7tdQ
+[2017-11-12 12:46:29.314323] [info] [18] http://nginx:8080/centaur_2.mpg is video with 720x480 dimensions and 6000000 kbps bitrate.
+[2017-11-12 13:03:01.802098] [info] Correctly started with URL = http://nginx:8080/centaur_2.mpg, hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 13:03:32.762880] [info] [1] http://nginx:8080/centaur_2.mpg correctly downloaded.
+[2017-11-12 13:03:32.817513] [info] [1] Downloaded file hash = e1a64dc6886b49030d0859297f9e59c6; required file hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 13:03:32.817605] [info] [1] Hash correct.
+[2017-11-12 13:03:32.828083] [info] [1] Saved to temporary file /tmp/vidslg6O7
+[2017-11-12 13:03:33.150372] [info] [1] http://nginx:8080/centaur_2.mpg is video with 720x480 dimensions and 6000000 kbps bitrate.
+[2017-11-12 13:09:29.734391] [info] Correctly started with URL = http://mirror.yandex.ru/centos/dir_sizes, hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 13:09:30.408186] [info] [2] http://mirror.yandex.ru/centos/dir_sizes correctly downloaded.
+[2017-11-12 13:09:30.451879] [info] [2] Downloaded file hash = af37786c61b21348811cf672a0f4f5bb; required file hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 13:09:30.451980] [critical] [2] http://mirror.yandex.ru/centos/dir_sizes has wrong hash. Exit.
+[2017-11-12 13:10:39.295815] [info] Correctly started with URL = http://mirror.yandex.ru/centos/dir_sizes, hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 13:10:39.765762] [info] [3] http://mirror.yandex.ru/centos/dir_sizes correctly downloaded.
+[2017-11-12 13:10:39.809494] [info] [3] Downloaded file hash = af37786c61b21348811cf672a0f4f5bb; required file hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 13:10:39.809571] [info] [3] Hash correct.
+[2017-11-12 13:10:39.810024] [info] [3] Saved to temporary file /tmp/vidsxGafL
+[2017-11-12 13:10:39.943002] [alert] [3] http://mirror.yandex.ru/centos/dir_sizes is not video file or format is not supported. Exit.
+[2017-11-12 13:12:58.917973] [info] Correctly started with URL = http://mirror.yandex.ru/centos/dir_sizes, hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 13:12:59.258944] [info] [4] http://mirror.yandex.ru/centos/dir_sizes correctly downloaded.
+[2017-11-12 13:12:59.302669] [info] [4] Downloaded file hash = af37786c61b21348811cf672a0f4f5bb; required file hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 13:12:59.302756] [info] [4] Hash correct.
+[2017-11-12 13:12:59.303062] [info] [4] Saved to temporary file /tmp/vidpGddtn
+[2017-11-12 13:12:59.331202] [alert] [4] http://mirror.yandex.ru/centos/dir_sizes is not video file or format is not supported. Exit.
+[2017-11-12 13:13:12.682760] [info] Correctly started with URL = http://nginx:8080/centaur_2.mpg, hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 13:13:35.692029] [info] [5] http://nginx:8080/centaur_2.mpg correctly downloaded.
+[2017-11-12 13:13:35.808500] [info] [5] Downloaded file hash = e1a64dc6886b49030d0859297f9e59c6; required file hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 13:13:35.808592] [info] [5] Hash correct.
+[2017-11-12 13:13:35.818038] [info] [5] Saved to temporary file /tmp/vidOm8L0z
+[2017-11-12 13:13:35.882522] [info] [5] http://nginx:8080/centaur_2.mpg is video with 720x480 dimensions and 6000000 kbps bitrate.
+[2017-11-12 13:21:11.356236] [info] Correctly started with URL = http://nginx:8080/centaur_2.mpg, hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 13:21:33.276088] [info] [6] http://nginx:8080/centaur_2.mpg correctly downloaded.
+[2017-11-12 13:21:33.341769] [info] [6] Downloaded file hash = e1a64dc6886b49030d0859297f9e59c6; required file hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 13:21:33.341926] [info] [6] Hash correct.
+[2017-11-12 13:21:33.351942] [info] [6] Saved to temporary file /tmp/vidoG6BmY
+[2017-11-12 13:21:33.472081] [info] [6] http://nginx:8080/centaur_2.mpg is video with 720x480 dimensions and 6000000 kbps bitrate.
+[2017-11-12 14:24:37.279313] [info] Correctly started with URL = http://nginx:8080/centaur_2.mpg, hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 14:24:42.091810] [info] Correctly started with URL = http://mirror.yandex.ru/centos/dir_sizes, hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 14:24:42.873164] [info] [8] http://mirror.yandex.ru/centos/dir_sizes correctly downloaded.
+[2017-11-12 14:24:43.315648] [info] [8] Downloaded file hash = af37786c61b21348811cf672a0f4f5bb; required file hash = af37786c61b21348811cf672a0f4f5bb
+[2017-11-12 14:24:43.315721] [info] [8] Hash correct.
+[2017-11-12 14:24:43.316030] [info] [8] Saved to temporary file /tmp/vidYJAiWj
+[2017-11-12 14:24:45.623718] [alert] [8] http://mirror.yandex.ru/centos/dir_sizes is not video file or format is not supported. Exit.
+[2017-11-12 14:25:11.444509] [info] [7] http://nginx:8080/centaur_2.mpg correctly downloaded.
+[2017-11-12 14:25:11.499411] [info] [7] Downloaded file hash = e1a64dc6886b49030d0859297f9e59c6; required file hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 14:25:11.499507] [info] [7] Hash correct.
+[2017-11-12 14:25:11.508944] [info] [7] Saved to temporary file /tmp/vidJX0aGH
+[2017-11-12 14:25:11.704705] [info] [7] http://nginx:8080/centaur_2.mpg is video with 720x480 dimensions and 6000000 kbps bitrate.
+[2017-11-12 14:26:38.909542] [info] Correctly started with URL = http://nginx:8080/m84_1.mpg, hash = a2d4f10f689819dd0db20f9ed7f748eb
+[2017-11-12 14:26:40.588829] [info] [9] http://nginx:8080/m84_1.mpg correctly downloaded.
+[2017-11-12 14:26:40.623888] [info] [9] Downloaded file hash = a2d4f10f689819dd0db20f9ed7f748eb; required file hash = a2d4f10f689819dd0db20f9ed7f748eb
+[2017-11-12 14:26:40.623972] [info] [9] Hash correct.
+[2017-11-12 14:26:40.625072] [info] [9] Saved to temporary file /tmp/vid9OF4cV
+[2017-11-12 14:26:40.707739] [info] [9] http://nginx:8080/m84_1.mpg is video with 320x240 dimensions and 320000 kbps bitrate.
+[2017-11-12 14:26:42.696880] [info] Correctly started with URL = http://nginx:8080/centaur_2.mpg, hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 14:26:50.861906] [info] Correctly started with URL = http://nginx:8080/m84_1.mpg, hash = a2d4f10f689819dd0db20f9ed7f748eb
+[2017-11-12 14:26:54.706163] [info] [11] http://nginx:8080/m84_1.mpg correctly downloaded.
+[2017-11-12 14:26:54.772958] [info] [11] Downloaded file hash = a2d4f10f689819dd0db20f9ed7f748eb; required file hash = a2d4f10f689819dd0db20f9ed7f748eb
+[2017-11-12 14:26:54.773046] [info] [11] Hash correct.
+[2017-11-12 14:26:54.774149] [info] [11] Saved to temporary file /tmp/vidpZCO1p
+[2017-11-12 14:26:54.875998] [info] [11] http://nginx:8080/m84_1.mpg is video with 320x240 dimensions and 320000 kbps bitrate.
+[2017-11-12 14:27:09.845069] [info] [10] http://nginx:8080/centaur_2.mpg correctly downloaded.
+[2017-11-12 14:27:09.933034] [info] [10] Downloaded file hash = e1a64dc6886b49030d0859297f9e59c6; required file hash = e1a64dc6886b49030d0859297f9e59c6
+[2017-11-12 14:27:09.933202] [info] [10] Hash correct.
+[2017-11-12 14:27:09.943027] [info] [10] Saved to temporary file /tmp/viduXzluO
+[2017-11-12 14:27:10.164284] [info] [10] http://nginx:8080/centaur_2.mpg is video with 720x480 dimensions and 6000000 kbps bitrate.

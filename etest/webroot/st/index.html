@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Downloader status</title>
+</head>
+<body>
+
+<h3>Downloader status</h3>
+<hr />
+<label for="showcompleted">Show completed</label>
+<input type="checkbox" id="showcompleted">
+<hr />
+
+<div id="statustable">
+
+</div>
+
+</body>
+
+<script>
+    (function () {
+
+        // define update function
+        var updateFunc = function () {
+            var oReq = new XMLHttpRequest();
+            oReq.open('GET', '/st/state.php?showCompleted=' + document.getElementById('showcompleted').checked, true);
+            oReq.onreadystatechange = function () {
+                if (oReq.readyState == 4) {
+                    if (oReq.status == 200) {
+
+                        // fetch result
+                        var oState = JSON.parse(oReq.responseText);
+
+                        // get div DOM
+                        var oStatTable = document.getElementById('statustable');
+
+                        // create table header
+                        var sTableHeader = '<table cellpadding="5" border="1">';
+                        sTableHeader += '<tr>';
+                        sTableHeader += '<th>Download ID</th>';
+                        sTableHeader += '<th>Last update</th>';
+                        sTableHeader += '<th>Download URL</th>';
+                        sTableHeader += '<th>Downloaded bytes</th>';
+                        sTableHeader += '<th>Total bytes</th>';
+                        sTableHeader += '<th>Current state</th>';
+                        sTableHeader += '</tr>';
+
+                        var sTableFooter = '</table>';
+
+                        var sTableContent = '';
+
+                        // compile table
+                        oState.forEach(function (item, num, arr) {
+                            sTableContent += '<tr>';
+                            sTableContent += '<td>' + item.id + '</td>';
+                            sTableContent += '<td>' + item.start + '</td>';
+                            sTableContent += '<td>' + item.url + '</td>';
+                            sTableContent += '<td>' + item.downloaded + '</td>';
+                            sTableContent += '<td>' + item.total + '</td>';
+                            sTableContent += '<td>' + item.state + '</td>';
+                            sTableContent += '</tr>';
+                        });
+
+                        // draw table
+                        oStatTable.innerHTML = sTableHeader + sTableContent + sTableFooter;
+                    }
+                }
+            };
+            oReq.send(null);
+        };
+
+        // timer for update
+        setInterval(updateFunc,1000);
+
+    })();
+</script>
+
+</html>

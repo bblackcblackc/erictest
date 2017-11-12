@@ -1,0 +1,32 @@
+version: '2'
+
+services:
+
+  php:
+    build: ./build/php7
+    volumes:
+      - ./etest:/usr/share/nginx/html
+    links:
+      - mysql
+    restart: always
+
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./etest:/usr/share/nginx/html
+      - ./data/nginx/conf/etest.conf:/etc/nginx/conf.d/etest.conf
+    ports:
+      - 8080:8080
+    links:
+      - php
+    restart: always
+
+  mysql:
+    image: mariadb:latest
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: 123
+    volumes:
+      - ./data/mysql/data:/var/lib/mysql
+    restart: always
